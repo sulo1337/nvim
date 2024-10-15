@@ -19,6 +19,11 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 git clone https://github.com/sulo1337/nvim ~/.config/nvim
 ```
 
+#### Copy community file
+```shell
+cp ~/.config/nvim/lua/community-example.lua ~/.config/nvim/lua/community.lua
+```
+
 #### Start Neovim
 
 ```shell
