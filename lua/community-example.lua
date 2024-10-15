@@ -1,4 +1,5 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
+if true then return {} end -- WARN: THIS IS JUST AN EXAMPLE, DUPLICATE THIS FILE TO ADD COMMUNITY PLUGINS
 
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
