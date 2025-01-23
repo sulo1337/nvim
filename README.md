@@ -13,6 +13,16 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
+#### Install dependencies
+For Debian:
+```
+sudo apt install ripgrep
+```
+For MacOS:
+```
+brew install ripgrep
+```
+
 #### Clone the repository
 
 ```shell
