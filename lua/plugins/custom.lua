@@ -5,5 +5,23 @@ return {
 
   -- UI
   -- sets neovim to transparent background
-  { "xiyaowong/transparent.nvim" },
+  {
+    "xiyaowong/transparent.nvim",
+    lazy = false,
+    -- opts = {
+    -- exclude_groups = { "CursorLine" },
+    -- },
+  },
+  {
+    "akinsho/git-conflict.nvim",
+    version = "v2.0.0",
+    lazy = false,
+    opts = {
+      default_mappings = false,
+    }
+  },
+  {
+    "github/copilot.vim",
+    lazy = false,
+  }
 }
