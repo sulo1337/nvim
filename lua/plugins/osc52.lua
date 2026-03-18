@@ -4,7 +4,10 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 -- osc cli tool must be installed for this to work
 -- https://github.com/theimpostor/osc
 
-vim.opt.clipboard = "unnamedplus"
-vim.g.clipboard = "osc52"
+if vim.env.TMUX then
+  vim.g.clipboard = "tmux"
+else
+  vim.g.clipboard = "osc52"
+end
 
 return {}
